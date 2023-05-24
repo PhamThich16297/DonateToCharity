@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand {
+    padding: 0;
+
+}
+.navbar-brand img {
+    height: 50px;
+   
+}
+
+.sidebar-nav {
+    width: 270px;
+}
+.dashboard {
+    text-align: center;
+    font-size: 27px;
+   
+}
+.dashboard i {
+    margin-right: 10px;
+}
+.dashboard a {
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.dashboard-menu {
+    padding: 0;
+    
+}
+.dashboard-menu>li:hover {
+    border-bottom: 2px solid red;
+}
+
+.dashboard-menu>li a:hover {
+    color: red;
+}
+.dashboard-menu li {
+    list-style: none;
+    border-bottom: 0.5px solid #414040;
+    margin: 7px 0;
+}
+
+.dashboard-menu li a {
+    color: #f8f8f8;
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.menu-main {
+    padding: 15px;
+    background-color: antiquewhite;
+}
+
+.menu-main p{
+    font-weight: bold;
+    padding-top: 10px;
+}
+.text-menu-main {
+    font-size: 12px;
+}
+
+.content-main {
+    background-color:#e7e9eb;
+    margin: 10px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+main {
+	margin-top: 66px;
+	}
+
+.main-header {
+	background-color: yellow;
+	
+}
+.main-body {
+	background-color: #e7e9eb;
+	padding:20px 50px;
+}
+
+
+.main-body-col label {
+	margin: auto;
+	color: blue;
+}
+
+ .text-menu-main{
+        font-size: 17px;
+    }
+    .content-main {
+        font-size: 20px;
+    }
+.table-body {
+	background-color: #e7e9eb;
+	padding: 20px;
+}
+.table-style thead{
+	font-size: 14px;
+	text-align: center;
+}
+
+.table-style tbody tr:hover{
+	background-color: #b1b8be;
+}
+
+.pageindex {
+	display: inline-block;
+}
+.pageindex a {
+	color: black;
+	font-size: 17px;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+.pageindex a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+.pageindex a:hover:not(.active) {
+	background-color: chocolate;
+}
+
+.form-dk {
+	background-color: rgb(108, 120, 130);
+	border-radius: 5px;
+	padding: 25px 15px;
+	font-size: 18px;
+	color: white;
+	
+}
+
+.form-dk input {
+	background: #b1b8be;
+	border-radius: 5px;
+	padding: auto;
+}
+
+
+@media screen and (min-width: 992px) {
+   
+
+    .sidebar-nav {
+        transform: none;
+        visibility: visible !important;
+        top: 66px;
+        height: calc(100% - 66px);
+    }
+
+    main {
+        margin-left: 270px;
+    }
+}
+
+
+   
+
